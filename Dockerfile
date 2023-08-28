@@ -1,4 +1,3 @@
-FROM python:3.10.4
 RUN apt update && apt upgrade -y
 RUN apt install python3-pip -y
 RUN apt install ffmpeg -y
